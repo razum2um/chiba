@@ -7,4 +7,9 @@
                  "codox" ["doc"],
                  "doc" ["do" "codox," "marg"]}}
  :dev {:plugins [[lein-pallet-release "RELEASE"]]}
+ :1.10 {:dependencies [[org.clojure/clojure "1.10.0"]]}
+ :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
+ :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
+ :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
+ :1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
  :provided {:dependencies [[org.clojure/clojure "1.4.0"]]}}
