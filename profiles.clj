@@ -5,7 +5,8 @@
                :src-linenum-anchor-prefix "L"},
        :aliases {"marg" ["marg" "-d" "doc/0.2/annotated/"],
                  "codox" ["doc"],
-                 "doc" ["do" "codox," "marg"]}}
+                 "doc" ["do" "codox," "marg"]
+                 "run-tests" ["with-profile" "-user,+test,+1.10" "test"]}}
  :dev {:plugins [[lein-pallet-release "RELEASE"]]}
  :1.10 {:dependencies [[org.clojure/clojure "1.10.0"]]}
  :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}

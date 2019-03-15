@@ -1,4 +1,4 @@
-(defproject dda/chiba "0.2.2"
+(defproject dda/chiba "0.2.3-SNAPSHOT"
   :description "A library for plugins based on namespace discovery"
   :url "http://palletops.com"
   :license {:name "Eclipse Public License"
@@ -6,4 +6,6 @@
   :dependencies [;[timofreiberg/bultitude "0.3.0"]]
                  [bultitude "0.2.6"]
                  [org.tcrawley/dynapath "1.0.0"]]
-  :exclusions [org.clojure/clojure])
+  :exclusions [org.clojure/clojure]
+  :deploy-repositories [["snapshots" :clojars]
+                        ["releases" :clojars]])
