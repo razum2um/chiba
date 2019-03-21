@@ -36,7 +36,7 @@ the file search space. For large directories on the classpath, passing a
 
 (def classpath->collection #'bultitude/classpath->collection)
 (def classpath->files #'bultitude/classpath->files)
-(def clj? #'bultitude/clj?)
+(def clj? #'bultitude/clojure-source-file?)
 (def jar? #'bultitude/jar?)
 
 (defn- clj? [^File f]
