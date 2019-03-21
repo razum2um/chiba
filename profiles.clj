@@ -5,12 +5,10 @@
                :src-linenum-anchor-prefix "L"},
        :aliases {"marg" ["marg" "-d" "doc/0.2/annotated/"],
                  "codox" ["doc"],
-                 "doc" ["do" "codox," "marg"]
-                 "run-tests" ["with-profile" "-user,+test,+1.10" "test"]}}
+                 "doc" ["do" "codox," "marg"]}}
  :dev {:plugins [[lein-pallet-release "RELEASE"]]}
  :1.10 {:dependencies [[org.clojure/clojure "1.10.0"]]}
+ :1.9 {:dependencies [[org.clojure/clojure "1.9.0"]]}
+ :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
  :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
- :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
- :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
- :1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
- :provided {:dependencies [[org.clojure/clojure "1.4.0"]]}}
+ :provided {:dependencies [[org.clojure/clojure "1.10.0"]]}}
